@@ -3,6 +3,7 @@ import React from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
 import {TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, LinkArrow } from './Icons'
+import { motion } from 'framer-motion'
 
 
 const CustomLink = ({ href, title, className=''}) => {
@@ -25,11 +26,10 @@ const NavBar = () => {
           <CustomLink href='/projects' title={'Projects'} className='ml-4 p-1'/>
         </nav>
         <nav className='flex items-center justify-center flex-wrap'>
-            <a href="https://x.com/Forest_long21" target={'_blank'}><TwitterIcon/></a>
-            <Link href="/" target={'_blank'}><LinkedInIcon/></Link>
-            <Link href="/" target={'_blank'}><GithubIcon/></Link>
-            <Link href="/" target={'_blank'}><DribbbleIcon/></Link>
-            <Link href="/" target={'_blank'}><LinkArrow/></Link>
+            <motion.a href="https://x.com/Forest_long21" target={'_blank'}
+            whileHover={{y:2}} whileTap={{scale: 0.9}} className='w-6 mr-3'><TwitterIcon/></motion.a>
+            <motion.a href="https://www.linkedin.com/in/carlosroquem/" target={'_blank'} whileHover={{y:2}} whileTap={{scale: 0.9}} className='w-6 mx-3'><LinkedInIcon/></motion.a>
+            <motion.a href="https://github.com/CarlosRoqueM" target={'_blank'} whileHover={{y:2}} whileTap={{scale: 0.9}} className='w-6 ml-3'><GithubIcon/></motion.a>
         </nav>
         <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
           <Logo />
