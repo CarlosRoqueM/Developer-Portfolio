@@ -13,7 +13,7 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen'>
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full '>
-            <div className='w-1/2'>
+            <div className='w-1/2 animate-fadeIn'>
               <Image src={ProfilePic} alt="CodeBucks" className='w-full h-auto'/>
             </div>
             <div className='w-1/2'>
