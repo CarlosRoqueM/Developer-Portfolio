@@ -19,18 +19,13 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>Biography</h2>
               <p className='font-medium'>
-                Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-                new and innovative ways to bring my clients&apos; visions to life.
+                Hola, soy CodeBucks, desarrollador web y diseñador UI/UX apasionado por crear experiencias digitales bonitas, funcionales y centradas en el usuario. Con 4 años de experiencia en el campo. Siempre estoy buscando nuevas e innovadoras formas de llevar las visiones de mis clientes a la vida.
               </p>
               <p className='my-4 font-medium'>
-                I believe that design is about more than just making things look pretty – it&apos;s about solving problems and 
-                creating intuitive, enjoyable experiences for users. 
+                Creo que el diseño es algo más que hacer que las cosas se vean bonitas se trata de resolver problemas y crear experiencias intuitivas y agradables para los usuarios.
               </p>
               <p className='font-medium'>
-                Whether I&apos;m working on a website, mobile app, or 
-                other digital product, I bring my commitment to design excellence and user-centered thinking to 
-                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                Ya sea que esté trabajando en un sitio web, una aplicación móvil u otro producto digital, aporto mi compromiso con la excelencia en el diseño y el pensamiento centrado en el usuario a cada proyecto en el que trabajo. Espero tener la oportunidad de aportar mis habilidades y pasión a su próximo proyecto.
               </p>
             </div>
 
