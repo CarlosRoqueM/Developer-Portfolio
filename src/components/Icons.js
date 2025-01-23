@@ -1,5 +1,22 @@
 import * as React from "react";
 
+export const HTMLIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 512 512"
+    {...rest}
+    className={`w-full h-auto ${className}`}
+  >
+    <path fill="none" d="M0 0h512v512H0z" />
+    <path
+      fill="#fff"
+      d="M63.952 52.455v13.763H80.9l-1.597 17.85-15.35 4.142v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696H63.952Zm0-27.856v13.762h33.244l.276-3.092.628-6.978.33-3.692H63.951Z"
+    />
+  </svg>
+);
+
 export const GithubIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
