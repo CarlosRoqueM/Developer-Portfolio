@@ -34,13 +34,12 @@ const Education = () => {
 
   return (
     <div className='my-64'>
-      <h2 className='font-bold text-8xl mb-32 w-full text-center'>Education</h2>
+      <h2 className='font-bold text-8xl mb-32 w-full text-center'>Educación</h2>
       <div ref={ref} className='w-[75%] mx-auto relative'>
         <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-1 w-[4px] h-full bg-dark origin-top' />
         <ul className='w-full flex flex-col items-start justify-between ml-4'>
-            <Details type='Bachiller de ciencias de la computacion' time='2021-2024' place='Tecsup' info='Loremaskfhasklfgashjfg  fhajsgfhasf jjahsglkasyuegkjhasdfgasjf alsfklhasg khjas'/>
-            <Details type='Bachiller de ciencias de la computacion' time='2021-2024' place='Tecsup' info='Loremaskfhasklfgashjfg  fhajsgfhasf jjahsglkasyuegkjhasdfgasjf alsfklhasg khjas'/>
-            <Details type='Bachiller de ciencias de la computacion' time='2021-2024' place='Tecsup' info='Loremaskfhasklfgashjfg  fhajsgfhasf jjahsglkasyuegkjhasdfgasjf alsfklhasg khjas'/>
+            <Details type='Diseño y Desarrollo de Software' time='2021 - 2024' place='Tecsup' info='Formación en desarrollo de software con enfoque en diseño, programación y gestión de aplicaciones. Adquisición de conocimientos en bases de datos, desarrollo web y móvil, optimización de código y metodologías ágiles.'/>
+            <Details type='Desarrollador IOS' time='2024 - Actualidad' place='Coursea' info='Capacitación en desarrollo de aplicaciones para iOS utilizando Swift y SwiftUI, con enfoque en arquitectura de software, diseño de interfaces intuitivas y optimización de rendimiento. Implementación de patrones de diseño, consumo de APIs y gestión de almacenamiento local y en la nube.'/>
         </ul>
       </div>
     </div>

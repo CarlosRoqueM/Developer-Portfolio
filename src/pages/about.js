@@ -46,15 +46,15 @@ const about = () => {
           <AnimatedText text='Sobre Mi' className='mb-16'/>
           <div className='grid w-full grid-cols-8 gap-16'>
             <div className='col-span-3 flex flex-col items-start justify-start'>
-              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>Biography</h2>
+              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>Biografia</h2>
               <p className='font-medium'>
-                Hola, soy CodeBucks, desarrollador web y diseñador UI/UX apasionado por crear experiencias digitales bonitas, funcionales y centradas en el usuario. Con 4 años de experiencia en el campo. Siempre estoy buscando nuevas e innovadoras formas de llevar las visiones de mis clientes a la vida.
+                Hola, soy Carlos Roque Mallhua, desarrollador web y móvil apasionado por crear soluciones digitales eficientes, innovadoras y centradas en la experiencia del usuario. Con experiencia en tecnologías como React, Next.js, SwiftUI, Kotlin y Flutter, siempre busco optimizar el rendimiento y la usabilidad en cada proyecto en el que trabajo.
               </p>
               <p className='my-4 font-medium'>
-                Creo que el diseño es algo más que hacer que las cosas se vean bonitas se trata de resolver problemas y crear experiencias intuitivas y agradables para los usuarios.
+                Creo que el desarrollo de software no solo se trata de escribir código, sino de solucionar problemas y diseñar experiencias intuitivas que mejoren la interacción de los usuarios con la tecnología. Me especializo en la depuración, optimización y migración de tecnologías para garantizar productos digitales modernos y escalables.
               </p>
               <p className='font-medium'>
-                Ya sea que esté trabajando en un sitio web, una aplicación móvil u otro producto digital, aporto mi compromiso con la excelencia en el diseño y el pensamiento centrado en el usuario a cada proyecto en el que trabajo. Espero tener la oportunidad de aportar mis habilidades y pasión a su próximo proyecto.
+                Ya sea en el desarrollo de un sitio web, una aplicación móvil o cualquier otro producto digital, mi compromiso es brindar soluciones de alta calidad con un enfoque centrado en el usuario. Estoy listo para aportar mis habilidades y pasión a su próximo proyecto.
               </p>
             </div>
 
@@ -65,21 +65,21 @@ const about = () => {
             <div className='col-span-2 flex flex-col items-end justify-between'>
                 <div className='flex flex-col items-end justify-center'>
                   <span className='inline-block text-7xl font-bold'>
-                    <AnmimatedNumbers value={50}/> +
+                    <AnmimatedNumbers value={2}/> +
                   </span>
-                  <h2 className='text-xl font-medium capitalize text-dark/75 '>Satisfied clients</h2>
+                  <h2 className='text-xl font-medium capitalize text-dark/75 '>Empresas colaboradas</h2>
                 </div>
                 <div className='flex flex-col items-end justify-center'>
                   <span className='inline-block text-7xl font-bold'>
-                  <AnmimatedNumbers value={40}/> +
+                  <AnmimatedNumbers value={5}/> +
                   </span>
-                  <h2 className='text-xl font-medium capitalize text-dark/75 '>projects completed</h2>
+                  <h2 className='text-xl font-medium capitalize text-dark/75 '>Meses de experiencia</h2>
                 </div>
                 <div className='flex flex-col items-end justify-center'>
                   <span className='inline-block text-7xl font-bold'>
-                  <AnmimatedNumbers value={4}/> +
+                  <AnmimatedNumbers value={5}/> +
                   </span>
-                  <h2 className='text-xl font-medium capitalize text-dark/75 '>years of experience</h2>
+                  <h2 className='text-xl font-medium capitalize text-dark/75 '>Certificaciones</h2>
                 </div>
             </div>
           </div>
