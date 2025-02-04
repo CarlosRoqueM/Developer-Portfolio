@@ -25,7 +25,7 @@ const FeatureProject = ({type, title, summary, img, link, github, icons = []}) =
         <div className='mt-4 flex flex-row items-center justify-between w-full'>
           <div className='gap-2 flex flex-row items-center'>
           {icons.map((Icon, index) => (
-              <Icon key={index} className='w-10 h-10 transform transition-transform duration-300 hover:scale-125 text-primary'/>
+              <Icon key={index} className='w-8 h-10 transform transition-transform duration-300 hover:scale-125 text-primary'/>
             ))}
           </div>
           <div className='w-10'>
@@ -36,6 +36,34 @@ const FeatureProject = ({type, title, summary, img, link, github, icons = []}) =
       </div>
     </article>
   )
+}
+
+const Project = ({type, title, summary, img, link, github, icons = []}) => {
+  return (
+    <article className='w-full flex flex-col rounded-3xl border border-solid border-dark bg-light shadow-2xl p-10'>
+      <Link href={link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg '>
+        <Image src={img} alt={title} className='w-full h-auto rounded-md'/>
+      </Link>
+      <div className='w-full flex flex-col items-start justify-between pt-6'>
+        <span className='text-primary font-medium text-xl'>{type}</span>
+        <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
+          <h2 className='my-2 w-full text-left text-4xl font-bold'>{title}</h2>
+        </Link>
+        <p className='my-2 font-medium text-dark'>{summary}</p>
+        <div className='mt-4 flex flex-row items-center justify-between w-full'>
+          <div className='gap-2 flex flex-row items-center'>
+          {icons.map((Icon, index) => (
+              <Icon key={index} className='w-8 h-10 transform transition-transform duration-300 hover:scale-125 text-primary'/>
+            ))}
+          </div>
+          <div className='w-10'>
+            <Link href={github} target='_blank' ><GithubIcon className='transform transition-transform duration-300 hover:scale-125'/></Link>
+            {/* <Link href={link} target='_blank' className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold'>Visitar Proyecto</Link> */}
+          </div>
+        </div>
+      </div>
+    </article>
+  );
 }
 
 
@@ -55,12 +83,18 @@ const projects = () => {
               link='/' type='Aplicativo movil' icons={[SiFlutter, SiDart, SiFirebase, FaNodeJs]}/>
             </div>
             <div className='col-span-6'>
-              feature projects -1
+              <Project img={project1} title='CuidaTec' github='https://github.com/CarlosRoqueM/CuidaTec.git' summary='Cuidatec es una aplicación móvil diseñada para facilitar la conexión entre familias y enfermeras especializadas en el cuidado de personas mayores. El proyecto surge como una respuesta a la creciente necesidad de brindar atención personalizada y profesional a nuestros seres queridos en una etapa crucial de sus vidas.'
+              link='/projects' type='Aplicativo movil' icons={[SiFlutter, SiDart, SiFirebase, FaNodeJs]}/>
             </div>
             <div className='col-span-6'>
-              feature projects -2
+              {/* <Project img={project1} title='CuidaTec' github='https://github.com/CarlosRoqueM/CuidaTec.git' summary='Cuidatec es una aplicación móvil diseñada para facilitar la conexión entre familias y enfermeras especializadas en el cuidado de personas mayores. El proyecto surge como una respuesta a la creciente necesidad de brindar atención personalizada y profesional a nuestros seres queridos en una etapa crucial de sus vidas.'
+              link='/projects' type='Aplicativo movil' icons={[SiFlutter, SiDart, SiFirebase, FaNodeJs]}/> */}
+              <article className='w-full flex flex-col rounded-3xl border border-solid border-dark bg-light shadow-2xl p-10'>
+                <h2 className='font-bold items-center text-center'>En proceso...</h2>
+              </article>
+
             </div>
-            <div className='col-span-12'>
+            {/* <div className='col-span-12'>
               feature projects
             </div>
             <div className='col-span-6'>
@@ -68,7 +102,7 @@ const projects = () => {
             </div>
             <div className='col-span-6'>
               feature projects -2
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
