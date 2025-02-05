@@ -5,7 +5,7 @@ import { HTMLIcon } from './Icons'
 
 const Skill = ({ name, x, y}) => {
   return(
-    <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer absolute' 
+    <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light' 
     whileHover={{scale: 1.1}} 
     initial={{x:0, y:0 }} 
     whileInView={{x:x, y:y }} 
@@ -23,8 +23,8 @@ const Skills = () => {
   return (
     <>
         <h2 className='font-bold text-8xl mt-64 w-full text-center'>Habilidades</h2>
-        <div className='w-full h-screen relative flex items-center justify-center bg-circularLight'>
-          <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
+        <div className='w-full h-screen relative flex items-center justify-center bg-circularLight dark:bg-circularDark rounded-full'>
+          <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
             Web y Movil
           </motion.div>
           <Skill name='HTML' x='-18vw' y='0vw'/>
