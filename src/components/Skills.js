@@ -23,7 +23,7 @@ const Skills = () => {
   return (
     <>
         <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32'>Habilidades</h2>
-        <div className='w-full h-screen relative flex items-center justify-center bg-circularLight dark:bg-circularDark rounded-full lg:h-[80vw] sm:h-[60vw] xs:h-[50vw] lg:bg-circularLightLg lg:dark:bg-circularDarkLg'>
+        <div className='w-full h-screen relative flex items-center justify-center bg-circularLight dark:bg-circularDark rounded-full lg:h-[80vw] sm:h-[60vw] xs:h-[50vw] lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd sm:bg-circularLightSm sm:dark:bg-circularDarkMd'>
           <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:py-6 lg:p-4 md:p-4 xs:p-2 lg:text-sm' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
             Web y Movil
           </motion.div>
