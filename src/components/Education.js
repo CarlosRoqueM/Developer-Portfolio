@@ -39,7 +39,8 @@ const Education = () => {
         <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]' />
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details type='Diseño y Desarrollo de Software' time='2021 - 2024' place='Tecsup' info='Formación en desarrollo de software con enfoque en diseño, programación y gestión de aplicaciones. Adquisición de conocimientos en bases de datos, desarrollo web y móvil, optimización de código y metodologías ágiles.'/>
-            <Details type='Desarrollador IOS' time='2024 - Actualidad' place='Coursea' info='Capacitación en desarrollo de aplicaciones para iOS utilizando Swift y SwiftUI, con enfoque en arquitectura de software, diseño de interfaces intuitivas y optimización de rendimiento. Implementación de patrones de diseño, consumo de APIs y gestión de almacenamiento local y en la nube.'/>
+            <Details type='Ingenieria de Sistemas' time='2025 - Actualidad' place='Universidad Esan' info='Formación en Ingeniería de Sistemas con enfoque en análisis, diseño y gestión de soluciones tecnológicas. Adquisición de conocimientos en arquitectura de sistemas, desarrollo de software, bases de datos, infraestructura TI y metodologías ágiles para la optimización de procesos y aplicaciones.'/>
+            <Details type='Desarrollador IOS' time='2025 - Actualidad' place='Coursea' info='Capacitación en desarrollo de aplicaciones para iOS utilizando Swift y SwiftUI, con enfoque en arquitectura de software, diseño de interfaces intuitivas y optimización de rendimiento. Implementación de patrones de diseño, consumo de APIs y gestión de almacenamiento local y en la nube.'/>
         </ul>
       </div>
     </div>

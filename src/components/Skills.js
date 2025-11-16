@@ -27,13 +27,13 @@ const Skills = () => {
           <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:py-6 lg:p-4 md:p-4 xs:p-2 lg:text-sm' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
             Web y Movil
           </motion.div>
-          <Skill name='HTML' x='-18vw' y='0vw'/>
-          <Skill name='CSS' x='-30vw' y='-8vw'/>
+          <Skill name='React' x='-18vw' y='0vw'/>
+          <Skill name='C#' x='-30vw' y='-8vw'/>
           <Skill name='NextJS' x='-30vw' y='8vw'/>
           <Skill name='NodeJS' x='30vw' y='-8vw'/>
-          <Skill name='Firebase' x='30vw' y='8vw'/>
+          <Skill name='Figma' x='30vw' y='8vw'/>
           <Skill name='JavaScript' x='-20vw' y='-18vw'/>
-          <Skill name='Figma' x='0vw' y='12vw'/>
+          <Skill name='SQL' x='0vw' y='12vw'/>
           <Skill name='Flutter' x='18vw' y='-18vw'/>
           <Skill name='Swift' x='15vw' y='18vw'/>
           <Skill name='PHP' x='-15vw' y='18vw'/>
